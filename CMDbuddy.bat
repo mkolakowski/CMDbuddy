@@ -1,7 +1,7 @@
 echo off
 
 echo ---------------------------------------------------------------------
-echo Version 0.0.2 Change log at RESERVED
+echo Version 0.0.3 Change log at https://github.com/mkolakowski/CMDbuddy/releases/
 echo ---------------------------------------------------------------------
 echo This is the CMDbuddy Script
 echo This script can do lots of cool things
