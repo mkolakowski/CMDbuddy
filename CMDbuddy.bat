@@ -1,7 +1,7 @@
 echo off
 
 echo ---------------------------------------------------------------------
-echo Version 0.0.3 Change log at https://github.com/mkolakowski/CMDbuddy/releases/
+echo Version 0.0.4 Change log at https://github.com/mkolakowski/CMDbuddy/releases/
 echo ---------------------------------------------------------------------
 echo This is the CMDbuddy Script
 echo This script can do lots of cool things
@@ -24,7 +24,7 @@ goto CMDBuddyInquisitor
 
 :CMDBuddyRobocopyAutomator
 echo ---------------------------------------------------------------------
-echo Robocopy automator v 1.0.0
+echo Robocopy automator
 echo ---------------------------------------------------------------------
 echo This will iniate a copy between the input source and destination
 echo Robocopy will create a log as well as show progress in the cmd window
@@ -48,8 +48,7 @@ set /p CMDbuddyRobocopyDestination="Enter Destination: "
 echo ---------------------------------------------------------------------
 echo Check command for accuracy
 echo *********************************************************************
-echo robocopy "%CMDbuddyRobocopySource%" "%CMDbuddyRobocopyDestination%" /e 
-echo /log+:"%CMDbuddyRobocopyDestination%"\copylog.txt /tee /v /ts /r:1 /w:1
+echo robocopy "%CMDbuddyRobocopySource%" "%CMDbuddyRobocopyDestination%" /e /log+:"%CMDbuddyRobocopyDestination%"\copylog.txt /tee /v /ts /r:1 /w:1
 echo *********************************************************************
 pause
 
