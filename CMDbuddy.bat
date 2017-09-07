@@ -1,7 +1,7 @@
 echo off
 
 echo ---------------------------------------------------------------------
-echo v0.0.1 Change log at RESERVED
+echo Version 0.0.2 Change log at RESERVED
 echo ---------------------------------------------------------------------
 echo This is the CMDbuddy Script
 echo This script can do lots of cool things
